@@ -41,8 +41,6 @@ export const CategoriesProvider = ({ children }) => {
         }
     }, [data]);
 
-    console.log("loading:", loading);
-    console.log("data:", data);
     const value = { categoriesMap, loading };
     return (
         <CategoriesContext.Provider value={value}>
