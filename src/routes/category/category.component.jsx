@@ -33,7 +33,6 @@ const Category = () => {
         },
     });
 
-    console.log(data);
     useEffect(() => {
         if (data) {
             const {
